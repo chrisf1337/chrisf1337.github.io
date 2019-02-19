@@ -11,5 +11,16 @@
 	<atom:link href="http://example.org/anime/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Code Geass Ep. 23-24</title>
+      <link>http://example.org/anime/code-geass-23-24/</link>
+      <pubDate>Sun, 17 Feb 2019 18:29:46 -0800</pubDate>
+      
+      <guid>http://example.org/anime/code-geass-23-24/</guid>
+      <description>Things I liked:
+ The killing off of Euphemia was done well, even if the events leading up to it were sort of contrived (it seems weird that Lelouch would bring up &amp;ldquo;killing all Japanese&amp;rdquo; out of nowhere). It really raises the stakes now. CC&amp;rsquo;s mecha pilot outfit looks nice.   Things I didn&amp;rsquo;t like:
+ I never noticed this before, but Kallen&amp;rsquo;s mecha pilot outfit looks outrageous:   </description>
+    </item>
+    
   </channel>
 </rss>
