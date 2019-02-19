@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>A (Mostly) Jargon-Free Glossary of Programming Terms</title>
+      <link>http://example.org/posts/programming-glossary/</link>
+      <pubDate>Mon, 18 Feb 2019 20:25:05 -0800</pubDate>
+      
+      <guid>http://example.org/posts/programming-glossary/</guid>
+      <description>Table of contents A C D F H L M N R S V
+ A   abstraction: A way of thinking about a problem that makes it easier to reason about. For example, say we want to write a program that fetches some data from a server. We might write a function that abstracts away the nitty-gritty details of actually making the request, handling errors in case the server is down, etc.</description>
+    </item>
+    
+    <item>
       <title>Code Geass Ep. 23-24</title>
       <link>http://example.org/anime/code-geass-23-24/</link>
       <pubDate>Sun, 17 Feb 2019 18:29:46 -0800</pubDate>

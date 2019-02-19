@@ -6,27 +6,19 @@
     <description>Recent content in Posts on Christopher Fu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Feb 2019 01:41:50 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 20:25:05 -0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Longer post title</title>
-      <link>http://example.org/posts/my-second-post/</link>
-      <pubDate>Sun, 17 Feb 2019 01:41:50 -0800</pubDate>
+      <title>A (Mostly) Jargon-Free Glossary of Programming Terms</title>
+      <link>http://example.org/posts/programming-glossary/</link>
+      <pubDate>Mon, 18 Feb 2019 20:25:05 -0800</pubDate>
       
-      <guid>http://example.org/posts/my-second-post/</guid>
-      <description>Hello world This is a second post.</description>
-    </item>
-    
-    <item>
-      <title>Shorter post title</title>
-      <link>http://example.org/posts/my-first-post/</link>
-      <pubDate>Sun, 13 Jan 2019 21:07:08 -0800</pubDate>
-      
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>Hello world! This is a post.</description>
+      <guid>http://example.org/posts/programming-glossary/</guid>
+      <description>Table of contents A C D F H L M N R S V
+ A   abstraction: A way of thinking about a problem that makes it easier to reason about. For example, say we want to write a program that fetches some data from a server. We might write a function that abstracts away the nitty-gritty details of actually making the request, handling errors in case the server is down, etc.</description>
     </item>
     
   </channel>
