@@ -11,7 +11,7 @@
  A   abstraction: A way of thinking about a problem that makes it easier to reason about. For example, say we want to write a program that fetches some data from a server. We might write a function that abstracts away the nitty-gritty details of actually making the request, handling errors in case the server is down, etc.'>
 <meta property='og:url' content='http://example.org/posts/programming-glossary/'>
 <meta property='og:site_name' content='Christopher Fu'>
-<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:published_time' content='2019-02-18T20:25:05-08:00'/><meta property='article:modified_time' content='2019-02-18T00:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:published_time' content='2019-02-18T20:25:05-08:00'/><meta property='article:modified_time' content='2019-02-19T00:00:00Z'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.53" />
 
@@ -171,11 +171,24 @@ languages</a> <a href="#abstraction">abstract</a> the concept of memory
 addresses away from the programmer.</p></li>
 </ul>
 
+<h1 id="a-name-b-a-b"><a name="B"></a> B</h1>
+
+<ul>
+<li>branch: A splitting off from a common source of code (either another branch, or the
+<a href="#master">master</a> branch) that allows you to work on a feature without affecting the progress of
+other parallel branches. See also: <a href="#version-control">version control</a>.</li>
+</ul>
+
 <h1 id="a-name-c-a-c"><a name="C"></a> C</h1>
 
 <ul>
-<li><a name="client"></a> client: A computer (or, depending on the context, a program) that
-requests data from a <a href="#server">server</a>.</li>
+<li><p><a name="client"></a> client: A computer (or, depending on the context, a program) that
+requests data from a <a href="#server">server</a>.</p></li>
+
+<li><p><a name="commit"></a> commit: In Git, a logical collection of changes that can be annotated with a
+message to describe what the changes are and the reasoning behind them. The commit is the main
+object that Git allows you to manipulate&mdash;you can reorder commits, change their contents, move
+them between branches, and more.</p></li>
 </ul>
 
 <h1 id="a-name-d-a-d"><a name="D"></a> D</h1>
@@ -209,7 +222,7 @@ one function. See also: <a href="#abstraction">abstraction</a>.</p></li>
 mechanical device consisting of magnetic platters (literally a metal <em>disk</em>) that store data
 and an arm with a magnetic head that reads and writes data to the platters. Reading and writing
 data to disk is slow compared to reading and writing data to RAM, but hard drives can store much
-more data than RAM and can keep this data even after the computer is powered off.</li>
+more data for less cost and can keep this data even after the computer is powered off.</li>
 </ul>
 
 <p><img src="/glossary/hard-drive.jpg" alt="Hard drive" /></p>
@@ -230,7 +243,7 @@ language</a>.</li>
 
 <ul>
 <li><p><a name="local"></a> local: Refers to something on the same computer, as compared to something on
-a different computer. See also: <a href="#network">network</a>.</p></li>
+a different computer (<a href="#remote">remote</a>). See also: <a href="#network">network</a>.</p></li>
 
 <li><p><a name="low-level-programming-language"></a> low-level programming language: A programming
 language that <a href="#abstraction"><em>abstracts</em></a> away from the programmer fewer details about how the
@@ -241,13 +254,24 @@ computer executes a program. Examples of low-level languages include C and assem
 <h1 id="a-name-m-a-m"><a name="M"></a> M</h1>
 
 <ul>
-<li><a name="memory"></a> memory: Computers have hardware that allow them to store data for some
+<li><p><a name="master"></a> master: The name commonly given to the main, canonical branch of
+development. A common action to start working on a feature might be to make a new <em>development</em>
+(or <em>dev</em>) branch from <em>master</em>. Once you are done with development on that branch, you
+<a href="#merge">merge</a> it back into <em>master</em>.</p></li>
+
+<li><p><a name="memory"></a> memory: Computers have hardware that allow them to store data for some
 period of time. Depending on the type of memory, data can be kept in memory for as long as it
 is receiving power (<em>volatile</em> memory), or it can be kept even after it is powered down
 (<em>non-volatile</em> memory). In most contexts, the term <em>memory</em> refers to random access memory
 (RAM). When you run a program, it is first loaded into RAM before it is executed so that the
-CPU can read it.</li>
-<li><a name="metadata"></a> metadata:</li>
+CPU can read it.</p></li>
+
+<li><p><a name="merge"></a> merge: The act of combining two branches back into one. Once your work on a
+feature in a separate branch is complete, you usually <em>merge</em> your feature branch into <em>master</em>.</p></li>
+
+<li><p><a name="metadata"></a> metadata: Literally, data about data. One example might be metadata for
+files: the file itself is the actual data, and the time it was last modified, its size, etc. would
+be the metadata.</p></li>
 </ul>
 
 <h1 id="a-name-n-a-n"><a name="N"></a> N</h1>
@@ -258,12 +282,29 @@ Internet is a vast <em>network</em> of computers located around the world that u
 protocol (IP) suite to communicate.</li>
 </ul>
 
+<h1 id="a-name-p-a-p"><a name="P"></a> P</h1>
+
+<ul>
+<li><p><a name="pull"></a> pull: In Git, the act of pulling retrieves work from other developers (or
+even yourself) from a <a href="#remote"><em>remote</em></a> to your local machine. This allows you to work on the
+code locally.</p></li>
+
+<li><p><a name="push"></a> push: In Git, the act of pushing publishes your work to a <a href="#remote">remote</a>.
+This makes it visible to other developers and also saves a copy of your work to the <em>remote</em>.</p></li>
+</ul>
+
 <h1 id="a-name-r-a-r"><a name="R"></a> R</h1>
 
 <ul>
-<li><a name="repository"></a> repository: Also <em>repo</em> for short. A collection of files and
+<li><p><a name="remote"></a> remote: Refers to something on a separate computer, as compared to something
+<a href="#local">local</a>. In Git, a <em>remote</em> repository (simply called a <em>remote</em>) is a repository
+located on another computer. You can collaborate with other developers by <a href="#push">pushing</a> your
+work to and <a href="#pull">pulling</a> other people&rsquo;s work from a common remote. In Git, the main remote
+is usually named <em>origin</em> by convention.</p></li>
+
+<li><p><a name="repository"></a> repository: Also <em>repo</em> for short. A collection of files and
 associated <a href="#metadata">metadata</a> that help developers keep track of code and the history of
-changes made to taht code. Closely tied to the concept of <a href="#version-control">version control</a>.</li>
+changes made to that code. Closely tied to the concept of <a href="#version-control">version control</a>.</p></li>
 </ul>
 
 <h1 id="a-name-s-a-s"><a name="S"></a> S</h1>
@@ -274,7 +315,8 @@ a network that can respond to requests for data from clients. When we visit webs
 Internet, our web browser (Chrome, Firefox, Safari, etc.) is a client that requests data from a
 server (e.g. Google servers, Facebook servers), which then respond to our browser with data
 (HTML, CSS, JavaScript). Our web browser then <em>renders</em> this content into something that it can
-draw on the computer screen as a graphical representation of the data provided by the server.</p></li>
+draw on the computer screen as a graphical representation of the data provided by the
+server&mdash;the actual webpage.</p></li>
 
 <li><p><a name="source-code"></a> source code: Also <em>source</em> for short. The file containing the actual
 text of code (hence the name <em>source</em>) that we write. For example, if we are writing Python, we
@@ -302,7 +344,7 @@ control systems</em> include Git, Mercurial, and Perforce.</li>
   
 </svg>
 <span class='screen-reader-text'>Last updated: </span>
-      <time class='entry-date' datetime='2019-02-18T00:00:00Z'>Feb 18, 2019</time>
+      <time class='entry-date' datetime='2019-02-19T00:00:00Z'>Feb 19, 2019</time>
     </div>
   </div>
 </footer>
