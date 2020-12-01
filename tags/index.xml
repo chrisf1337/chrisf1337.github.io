@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Christopher Fu</title>
@@ -6,26 +6,26 @@
     <description>Recent content in Tags on Christopher Fu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Feb 2019 18:29:46 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Episode Notes</title>
-      <link>http://example.org/tags/episode-notes/</link>
-      <pubDate>Sun, 17 Feb 2019 18:29:46 -0800</pubDate>
-      
-      <guid>http://example.org/tags/episode-notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Series Review</title>
+      <title>series-review</title>
       <link>http://example.org/tags/series-review/</link>
       <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/tags/series-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>episode-notes</title>
+      <link>http://example.org/tags/episode-notes/</link>
+      <pubDate>Sun, 17 Feb 2019 18:29:46 -0800</pubDate>
+      
+      <guid>http://example.org/tags/episode-notes/</guid>
       <description></description>
     </item>
     

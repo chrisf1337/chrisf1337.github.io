@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Christopher Fu</title>
@@ -18,7 +18,7 @@
       
       <guid>http://example.org/anime/code-geass-s1/</guid>
       <description>Code Geass is well-known in the anime world for being one of the greats. I&amp;rsquo;ve never had the opportunity myself to watch it before, for various reasons&amp;mdash;it aired in 2006, I don&amp;rsquo;t usually go out of my way to watch mecha, the character design isn&amp;rsquo;t really up my alley&amp;mdash;but after doing so, I can definitely see why this series is so highly regarded.
-Art: 2&amp;frasl;4 There&amp;rsquo;s nothing too special about the art in Code Geass.</description>
+Art: 2/4 There&amp;rsquo;s nothing too special about the art in Code Geass.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ Art: 2&amp;frasl;4 There&amp;rsquo;s nothing too special about the art in Code G
       
       <guid>http://example.org/posts/programming-glossary/</guid>
       <description>Table of contents A C D F H L M N R S V
- A   abstraction: A way of thinking about a problem that makes it easier to reason about. For example, say we want to write a program that fetches some data from a server. We might write a function that abstracts away the nitty-gritty details of actually making the request, handling errors in case the server is down, etc.</description>
+A   abstraction: A way of thinking about a problem that makes it easier to reason about. For example, say we want to write a program that fetches some data from a server. We might write a function that abstracts away the nitty-gritty details of actually making the request, handling errors in case the server is down, etc.</description>
     </item>
     
     <item>
